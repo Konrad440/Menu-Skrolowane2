@@ -1,0 +1,45 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.sekcja1{
+    background-color: cadetblue;
+    height: 70vh;
+}
+
+.sekcja2{
+    background-color:cornflowerblue;
+    height: 1000px;
+}
+
+.sekcja3{
+    background-color:darkcyan;
+    height: 1290px;
+    padding: 20px;
+}
+
+.sekcja4{
+    background-color:firebrick;
+    height: 150vh;
+}
+
+.info {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    box-shadow: 0 0 3px 3px gray;
+    background-color: gold;
+    font-size: 30px;
+    line-height: 70px;
+    text-align: center;
+    transition: .8s;
+}
+
+.info.active {
+    bottom: 0;
+}
